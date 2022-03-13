@@ -9,8 +9,9 @@ fun multiplyElements (num:Array<Int>):Int {
 
 
     }
-    mixedup(arrayOf("susan",6.8,7,true,7.9F,"mary",5.2))
-    getNumber(arrayOf('a','b','c','d','e','f','g','i','h'))
+     mixedup(arrayOf("susan",6.8,7,true,7.9F,"mary",5.2))
+     var w = getNumber(arrayOf('a','b','c','d','e','f','g','i','h'))
+     println(w)
     return product
 }
 fun mixedup (el:Array<Any>):Double{
@@ -29,7 +30,7 @@ fun getNumber (vowels:Array<Char>):Int {
     var num = 0
     vowels.forEach { vowel ->
         if (vowel =='a' || vowel== 'e' ||vowel == 'i'|| vowel == 'o' || vowel == 'u' ){
-            println(vowels.count())
+           num++
 
         }
     }
